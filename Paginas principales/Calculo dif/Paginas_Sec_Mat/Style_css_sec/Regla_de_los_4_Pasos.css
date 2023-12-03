@@ -1,0 +1,132 @@
+*{
+    background-color: #0f0f0f;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu{
+  width: 100%;
+
+}
+header{
+    background: #272727;
+    border-color: #464646;
+    border-style: solid;
+    width: 100%;
+    border-radius: 40px;
+    clear: both;
+    content: '';
+    display: table;
+    margin-top: 15px;
+}
+  
+nav{
+    background-color: #272727;
+    float: left;
+    border-radius: 40px;
+    padding-left: 22%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+nav ul li {
+    background-color: #272727;
+    list-style: none;
+    margin-left: 10px;
+    padding: 20px 0;
+    float: left;
+    position: relative;
+}
+  
+nav ul li {
+    list-style: none;
+    float: center;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 19px;
+    letter-spacing: 6px;
+}
+nav ul li a{
+    font-family: 'Matura MT Script Capitals';
+    font-size: 40px;
+    background-color: #272727;
+}
+.menulat h1{
+    background-color: #272727;
+    float: left;
+    font-family: 'Matura MT Script Capitals';
+    color: #ffffff;
+    letter-spacing: 6px;
+    padding-inline: 20px;
+    padding-bottom: 20px;
+}
+
+#menulat {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #272727;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+#menulat a {
+    font-family: 'Magneto';
+    font-weight: bold;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #969696;
+    display: block;
+    transition: 0.3s;
+    background-color: #272727;
+}
+  
+#menulat a:hover {
+    color: #ffffff;
+}
+
+#main{
+    width: 0px;
+    height: 0px;
+}
+#main{
+    transition: margin-left .5s;
+    
+}
+
+.menu-btn {
+    font-size: 50px;
+    color: #ffffff;
+    cursor: pointer;
+    position: fixed;
+    z-index: 2;
+    margin-left: 20px;
+    background-color: #27272700;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.body table{
+    float: left;
+    margin-left: 130px;
+}
+.body table th{
+    width: 1000px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #272727;
+    border-color: #464646;
+    border-style: solid;
+    color: #ffffff;
+    float: left;
+    font-family: 'MV Boli';
+    font-size: 40px;
+}
